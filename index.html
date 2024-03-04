@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Companion Connect</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%; 
+            min-height: 100%;
+            width: auto; 
+            height: auto;
+            z-index: -100;
+        }
+
+        .content-container {
+            position: relative;
+            z-index: 10;
+            color: #333; /* Dark text color for light backgrounds */
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px auto; /* Centers the block */
+            max-width: 800px; /* Sets a max width for the block */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        }
+
+        h1, h3, p, button {
+            color: #000; /* Change text color for visibility */
+        }
+
+        h1 {
+            font-size: 2.5em; /* Larger font size for heading */
+            color: #007bff; /* Theme color for the heading */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+            padding-bottom: 10px; /* Spacing below heading */
+            margin-bottom: 30px; /* Spacing below heading */
+            border-bottom: 3px solid #007bff; /* Adds a thematic underline to the heading */
+        }
+        
+        p {
+            font-size: 1.1em; /* Slightly larger font size for readability */
+            margin-bottom: 20px; /* Spacing between paragraphs */
+            line-height: 1.6; /* Improved line spacing */
+            text-align: justify; /* Justified text for a cleaner look */
+        }
+
+        button {
+            font-weight: bold; /* Make button text bold */
+            letter-spacing: 1px; /* Add spacing between letters */
+            padding: 15px 30px; /* Larger button for better clickability */
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Consistent shadow with the text */
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <video loop muted autoplay>
+        <source src="videos/bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="content-container">
+        <h1>About Us</h1>
+        <p>The paw-sitively perfect platform where pet owners like you can connect, share, and support each other!
+            We understand the unique bond you share with your furry (or feathered, or scaled) friend. But life can get busy, and finding reliable, affordable pet care shouldn't be an added stress. That's where Companion Connect comes in.
+        </p>
+        <div> 
+            <h3>Our mission: </h3>
+            <p>To create a vibrant community-driven platform where pet owners can offer and request pet sitting and walking services from each other, fostering a network of support and trust. Ditch the expensive pet sitters and impersonal kennels, and connect with fellow animal lovers who share your passion!
+                <b>Let's wag our tails (or flap our wings, or swish our fins) together!</b>
+            </p>
+        </div>
+        <button onclick="location.href='content.html'">Become a Member</button>
+    </div>
+</body>
+</html>

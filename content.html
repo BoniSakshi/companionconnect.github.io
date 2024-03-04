@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companion Connect Launch</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Ensure you have a CSS file at this path -->
+</head>
+<body>
+  <nav class="container-fluid nav-bar">
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content.html">Sign Up</a></li>
+    </ul>
+</nav>
+    <div class="header-container">
+      <img src="images/hero_image.png" alt="Companion Connect Logo" />
+      <div class="header-title">
+          <h1>Welcome to Companion Connect!</h1>
+          <p>Connecting Pets with Care, Community, and Love.</p>
+      </div>
+  </div>
+  
+    <section id="features">
+        <!-- <h2>Features</h2> -->
+        <div class="feature">
+            <img src="images/community.png" alt="Community"> <!-- Replace with your image -->
+            <h3>Community-based Pet Care</h3>
+            <p>Exchange pet sitting and walking services with trusted neighbors.</p>
+        </div>
+        <div class="feature">
+            <img src="images/search.png" alt="Search"> <!-- Replace with your image -->
+            <h3>Dynamic Search</h3>
+            <p>Find the perfect match for your pet's needs in your local area.</p>
+        </div>
+        <div class="feature">
+            <img src="images/messaging.png" alt="Messaging">
+            <h3>Secure Messaging</h3>
+            <p>Communicate safely with pet owners and arrange meet-ups.</p>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h2>Millions of 5-star services and counting</h2>
+        <div class="testimonial-container">
+          <!-- Previous button for carousel -->
+          <button class="carousel-button prev">❮</button>
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial">
+            <img src="images/profile1.jpg" alt="Mark P" class="testimonial-avatar">
+            <p>"It's amazing to see all the different types of pets represented in the app. It reminds me that we're all in this together, caring for our furry friends."</p>
+            <cite>- Mark P., Dog owner</cite>
+          </div>
+
+           <!-- Testimonial 2 -->
+           <div class="testimonial">
+            <img src="images/profile2.jpg" alt="Curtis T" class="testimonial-avatar">
+            <p>"Companion Connect is more than just an app - it's a community. It's helped me connect with other pet owners and learn so much."</p>
+            <cite>- Sarah M.</cite>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="testimonial">
+            <img src="images/profile3.jpg" alt="David L." class="testimonial-avatar">
+            <p>"It's like walking into a room full of furry friends! The app is so inviting and makes me feel connected to my cat community."</p>
+            <cite>- David L., Cat Lover</cite>
+          </div>
+      
+          <!-- Next button for carousel -->
+          <button class="carousel-button next">❯</button>
+        </div>
+      </section>
+      
+    <section id="signup">
+        <h2>Join Us Now</h2>
+        <form action="submit_form.php" method="POST"> <!-- You'll need a server-side script to handle the form -->
+            <input type="text" placeholder="Your Email Address" name="email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    <footer>
+        <!-- <p>Follow us on social media</p> -->
+        <p>Contact us at info@companionconnect.com</p>
+        <p>&copy; 2024 Companion Connect. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script> <!-- Optional JavaScript file -->
+</body>
+</html>
